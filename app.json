@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "smt-geo",
+    "name": "smt mapping",
     "slug": "smt-geo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.balagopinaath.smtgeo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0279f0c9-d4df-4e40-9881-d484b1548e5b"
+      }
     }
   }
 }
